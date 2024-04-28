@@ -12,4 +12,4 @@ showResult 함수 : user, computer, resultMsg에 저장된 내용을 출력
 
 deleteAllResult 함수 : 전체 삭제 버튼 클릭 시 gameRecord 배열 초기화, userScore, computerScrore 0으로 초기화
 
-deleteResult 함수 : 삭제 버튼 클릭 시 gameRecord 내의 삭제된 인덱스를 찾아 삭제하고 updateRecord해줌 + 삭제된 인덱스의 message 속성을 바탕으로 userScore와 computerScore 업데이트해줌
+deleteResult 함수 : 삭제 버튼 클릭 시 gameRecord 내의 삭제된 인덱스를 찾아 삭제하고 updateRecord해줌 + 삭제된 인덱스의 message 속성을 바탕으로 userScore와 computerScore 업데이트하고 updateScore해줌
